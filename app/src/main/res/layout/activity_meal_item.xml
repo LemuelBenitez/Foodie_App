@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".MealItemActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+        <ImageView
+            android:id="@+id/meal_image"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_launcher_background"
+            android:layout_marginBottom="10dp"
+            android:contentDescription="@string/todo" />
+
+        <TextView
+            android:id="@+id/meal_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="@string/meal_title"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="25sp"
+            android:textStyle="bold|italic"
+            android:typeface="sans"
+            android:gravity="center_horizontal" />
+
+        <TextView
+            android:id="@+id/meal_calories"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="@string/calories_title"
+            android:textAlignment="center"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="@string/description_title"
+            android:textColor="@android:color/black"
+            android:textSize="25sp"
+            android:textStyle="bold|italic"
+            android:typeface="sans" />
+
+        <TextView
+            android:id="@id/meal_description"
+            android:text="@string/meal_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:layout_marginBottom="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="@string/ingredients_title"
+            android:textColor="@android:color/black"
+            android:textSize="25sp"
+            android:textStyle="bold|italic"
+            android:typeface="sans" />
+
+        <TextView
+            android:id="@+id/meal_ingredients"
+            android:text="@string/meal_ingredients"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:layout_marginBottom="10dp" />
+
+        <Button
+            android:id="@+id/meal_link"
+            style="@style/Widget.MaterialComponents.Button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:onClick="onButtonClick"
+            android:text="@string/link_to_recipie"
+            android:textAllCaps="false"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textSize="25sp"
+            tools:targetApi="jelly_bean" />
+
+        <Button
+            android:id="@+id/main_link"
+            style="@style/Widget.MaterialComponents.Button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:onClick="onButtonClick"
+            android:text="@string/back_to_main"
+            android:textAllCaps="false"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textSize="25sp"
+            tools:targetApi="jelly_bean" />
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string name="app_name">Foodie App</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="title">title</string>
+    <string name="description">description</string>
+    <string name="calories">calories</string>
+    <string name="ingredients">ingredients</string>
+    <string name="link">recipe Link</string>
+    <string name="add_new_meal">Add New Meal</string>
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_place_holder">Title Place Holder</string>
+    <string name="body_place_holder">Body Place Holder</string>
+    <string name="caloriesPlaceHolder">Calories :</string>
+    <string name="something">Everything must be filled including image! Please try Again!</string>
+    <string name="dialog_warning" >Are you sure?</string>
+    <string name="yes" >Yes</string>
+    <string name="change" >Change</string>
+    <string name="dialog_title" >What do you want to edit?</string>
+    <string name="done" >Done</string>
+    <string name="cancel" >Cancel</string>
+    <string name="back_to_main">Back to Main!</string>
+    <string name="link_to_recipie">Link to Recipie</string>
+    <string name="ingredients_title">Ingredients</string>
+    <string name="description_title">Description</string>
+    <string name="calories_title">Calories:</string>
+    <string name="todo">TODO</string>
+    <string name="meal_title">Meal Title</string>
+    <string name="meal_description">Meal Description</string>
+    <string name="meal_ingredients">Meal Ingredients</string>
+    <string-array name="edit_options">
+        <item>Title</item>
+        <item>Description</item>
+        <item>Calories</item>
+        <item>Ingredients</item>
+        <item>Link</item>
+    </string-array>
+    <string-array name="meal_title">
+        <item>Mofongo</item>
+        <item>Sorullitos</item>
+        <item>Arroz Y Habichuelas</item>
+        <item>Frituras</item>
+        <item>Pizza Empanadas</item>
+        <item>Pasteles</item>
+        <item>Tembleque</item>
+    </string-array>
+
+    <string-array name="meal_image">
+        <item>@drawable/mofongo</item>
+        <item>@drawable/sorullitos</item>
+        <item>@drawable/rice_and_beans</item>
+        <item>@drawable/frituras</item>
+        <item>@drawable/empanada</item>
+        <item>@drawable/pasteles</item>
+        <item>@drawable/tembleque</item>
+    </string-array>
+
+    <string-array name="meal_description">
+        <item>Puerto Rican comfort food at its finest.
+            Mofongo is traditionally made from deep-fried green plantain pieces
+            that are mashed with garlic and either salt-cured pork, pork crackling,
+            butter, and/or
+            oil. Some recipes use a salty broth to soften the plantains while mashing.</item>
+        <item>Sorullitos, A Puerto Rican cuisine staple, crispy outside and soft inside, these are served as appetizers or side dishes. Add some cheese and you’ll have a midday snack!</item>
+        <item>Arroz Y Habichulas, Rice and beans are the quintessential Puerto Rican side dish.
+            Pink beans are stewed with onions, peppers, garlic, ham hock, calabaza squash, and sofrito,
+            a cooking base made by blending together onion,
+            garlic, peppers, culantro, cilantro, and oregano (as well as other herbs, spices, and aromatics depending on the family recipe).</item>
+        <item>Frituras, Deep-fried fritters normally found in open-air, beachside restaurants that pair beautifully with a cold beer.
+            These are usually stuffed with ground beef, crab meat, chicken,
+            fish, octopus, conch, or other types of seafood. </item>
+        <item>Pizza Empanadas, Easy Puerto Rican Pizza
+            Empanadas (empanadillas de pizza) with pepperoni and cheese! </item>
+        <item>Pasteles, resemble tamales and are
+            traditionally made with green banana masa stuffed with stewed pork meat.
+            Sometimes yuca or other root vegetables are added; the masa can also be
+            made with just yuca. Pasteles can also be stuffed with chicken or
+            bacalao (salted cod), and some vegan versions have been introduced
+            recently.</item>
+        <item>Tembleque, a silky coconut custard; and arroz con dulce,
+            rice pudding with cinnamon and raisins.</item>
+    </string-array>
+
+    <string-array name="meal_ingredients">
+        <item>
+            2 cups vegetable oil (for frying)
+            3 plantains (green, unripe)
+            1 tablespoon garlic paste
+            6 ounces pork rinds (cracklings, crushed)
+        </item>
+        <item>
+            2 cups Water, municipal
+            3 tablespoons Sugars, granulated
+            1 tablespoon Butter, with salt
+            1 teaspoon Salt, table
+            1 ½ cups Cornmeal, degermed, enriched, yellow
+            3 cups oil for frying
+            2 teaspoons Oil, soybean, salad or cooking
+            ½ cup Salad dressing, mayonnaise, soybean oil, with salt
+            ¼ cup Ketchup
+            1  pinch Garlic Salt GL 0130 HS
+        </item>
+        <item>
+            Beans
+1 can pink beans
+2 tbsp olive oil
+3 heaping tbsp sofrito
+1/2 tsp vegetable bullion
+2 tsp sazón/seasoning
+3 tbsp tomato sauce Goya is my favorite
+1 cup pumpkin in chunks
+1 1/2 cup water Less for thicker sauce
+1/4 tsp or to taste salt Remember the "sazón" already has some salt
+1/2 tsp organic cane sugar
+Rice in Rice Maker
+2 cups medium grain white rice
+1 tbsp oil Any type of oil will be okay
+1 tsp salt or to taste
+2 1/2 cups water
+Rice in Regular Pot
+2 cups medium grain white rice
+1 tbsp oil
+1 tsp salt or to taste
+3 cups water
+        </item>
+        <item>
+            2 lb. yellow malanga, peeled and cut into large pieces
+            ¼ cups flour
+            ¼ cups chopped fresh parsley
+            Salt and freshly ground black pepper
+            Vegetable oil
+        </item>
+        <item>
+            10 Empanadas Dough Discs
+            1/4 cup Pizza Sauce, plus more for dipping
+            8 ounces Mozzarella Cheese, shredded or thinly sliced
+            2 ounces Mini Pepperoni
+        </item>
+        <item>
+            2 pounds pork shoulder (diced)
+            2 tablespoons olive oil
+            4 small sweet peppers (chopped)
+            1 small onion (chopped)
+            2 tablespoons recaito (Puerto Rican sofrito sauce)
+            4 cloves garlic (minced)
+            1 tablespoon adobo seasoning
+            1 tablespoon ground oregano
+            1 bay leaf
+        </item>
+        <item>
+            2 (14 ounce) cans Nuts, coconut milk, canned (liquid expressed from grated meat and water)
+            ¾ cup Sugars, granulated
+            ¼ teaspoon Morton Kosher Salt, coarse
+            ½ cup Cornstarch
+            1 pinch Spices, cinnamon, ground
+
+        </item>
+    </string-array>
+
+    <string-array name="meal_calories">
+        <item>1120</item>
+        <item>300</item>
+        <item>780</item>
+        <item>549</item>
+        <item>250</item>
+        <item>276</item>
+        <item>487</item>
+    </string-array>
+
+    <string-array name="meal_links">
+        <item>https://www.thespruceeats.com/traditional-mofongo-recipe-2138186</item>
+        <item>https://www.allrecipes.com/recipe/223511/deep-fried-corn-meal-sticks-sorullitos-de-maiz-with-dipping-sauce/</item>
+        <item>https://smartlittlecookie.net/rice-beans-moro-de-habichuelas/</item>
+        <item>https://foodsogoodmall.com/recipe/201106puerto-rican-frituras-de-maiz-corn-html/</item>
+        <item>https://www.kitchengidget.com/2018/03/24/pizza-empanadas/</item>
+        <item>https://www.thespruceeats.com/pasteles-basics-2138107</item>
+        <item>https://www.allrecipes.com/recipe/238693/tembleque-puerto-rican-coconut-pudding/</item>
+    </string-array>
+</resources>
